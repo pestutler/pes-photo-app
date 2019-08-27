@@ -1,0 +1,5 @@
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/childprocess-1.0.1/ext
+/Users/pes/.rvm/rubies/ruby-2.5.1/bin/ruby mkrf_conf.rb
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/childprocess-1.0.1/ext
+/Users/pes/.rvm/rubies/ruby-2.5.1/bin/ruby -rrubygems /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/rake-12.3.3/exe/rake RUBYARCHDIR=/Users/pes/rdc/rails_projects/photo-app/vendor/bundler/extensions/x86_64-darwin-18/2.5.0/childprocess-1.0.1 RUBYLIBDIR=/Users/pes/rdc/rails_projects/photo-app/vendor/bundler/extensions/x86_64-darwin-18/2.5.0/childprocess-1.0.1

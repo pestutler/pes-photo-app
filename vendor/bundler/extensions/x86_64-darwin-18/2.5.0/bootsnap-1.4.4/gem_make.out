@@ -1,0 +1,15 @@
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bootsnap-1.4.4/ext/bootsnap
+/Users/pes/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190827-28079-8x2cg5.rb extconf.rb
+creating Makefile
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bootsnap-1.4.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20190827-28079-17l0ula/bootsnap

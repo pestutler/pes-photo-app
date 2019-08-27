@@ -1,0 +1,15 @@
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bindex-0.8.1/ext/skiptrace
+/Users/pes/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190827-28079-1e3nmq1.rb extconf.rb
+creating Makefile
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190827-28079-fh12xb/skiptrace/internal
