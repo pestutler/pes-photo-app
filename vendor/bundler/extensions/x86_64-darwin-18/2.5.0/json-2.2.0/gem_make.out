@@ -1,0 +1,13 @@
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/json-2.2.0/ext/json
+/Users/pes/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20190904-87498-fxjt63.rb extconf.rb
+creating Makefile
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/json-2.2.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/json-2.2.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/pes/rdc/rails_projects/photo-app/vendor/bundler/gems/json-2.2.0/ext/json
+make "DESTDIR=" install
