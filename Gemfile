@@ -11,7 +11,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'stripe'
-gem 'carrierwave'
+gem 'carrierwave', '>= 2.0.1'
 gem 'mini_magick'
 gem 'fog-aws'
 # Use sqlite3 as the database for Active Record
