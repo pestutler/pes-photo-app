@@ -1,0 +1,250 @@
+2019-09-12T14:00:24.831073+00:00 app[web.1]: from /app/vendor/ruby-2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+2019-09-12T14:00:24.831076+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/initializable.rb:60:in `run_initializers'
+2019-09-12T14:00:24.831079+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/application.rb:361:in `initialize!'
+2019-09-12T14:00:24.831081+00:00 app[web.1]: from /app/config/environment.rb:5:in `<top (required)>'
+2019-09-12T14:00:24.831084+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-09-12T14:00:24.831087+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-09-12T14:00:24.831090+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-09-12T14:00:24.831093+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-09-12T14:00:24.831097+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-09-12T14:00:24.831098+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-09-12T14:00:24.831101+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-09-12T14:00:24.831104+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-09-12T14:00:24.831107+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:48:in `require_relative'
+2019-09-12T14:00:24.831110+00:00 app[web.1]: from config.ru:3:in `block in <main>'
+2019-09-12T14:00:24.831139+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `instance_eval'
+2019-09-12T14:00:24.831141+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:55:in `initialize'
+2019-09-12T14:00:24.831142+00:00 app[web.1]: from config.ru:in `new'
+2019-09-12T14:00:24.831144+00:00 app[web.1]: from config.ru:in `<main>'
+2019-09-12T14:00:24.831145+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `eval'
+2019-09-12T14:00:24.831147+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:49:in `new_from_string'
+2019-09-12T14:00:24.831148+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/builder.rb:40:in `parse_file'
+2019-09-12T14:00:24.831150+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:319:in `build_app_and_options_from_config'
+2019-09-12T14:00:24.831151+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:219:in `app'
+2019-09-12T14:00:24.831153+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:27:in `app'
+2019-09-12T14:00:24.831154+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:354:in `wrapped_app'
+2019-09-12T14:00:24.831158+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/rack-2.0.7/lib/rack/server.rb:283:in `start'
+2019-09-12T14:00:24.831159+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:53:in `start'
+2019-09-12T14:00:24.831160+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:147:in `block in perform'
+2019-09-12T14:00:24.831162+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `tap'
+2019-09-12T14:00:24.831163+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands/server/server_command.rb:142:in `perform'
+2019-09-12T14:00:24.831165+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+2019-09-12T14:00:24.831166+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+2019-09-12T14:00:24.831169+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+2019-09-12T14:00:24.831171+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command/base.rb:65:in `perform'
+2019-09-12T14:00:24.831172+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/command.rb:46:in `invoke'
+2019-09-12T14:00:24.831174+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/railties-5.2.3/lib/rails/commands.rb:18:in `<top (required)>'
+2019-09-12T14:00:24.831175+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `require'
+2019-09-12T14:00:24.831178+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:22:in `block in require_with_bootsnap_lfi'
+2019-09-12T14:00:24.831180+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/loaded_features_index.rb:92:in `register'
+2019-09-12T14:00:24.831181+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:21:in `require_with_bootsnap_lfi'
+2019-09-12T14:00:24.831184+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.4.4/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:30:in `require'
+2019-09-12T14:00:24.831186+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `block in require'
+2019-09-12T14:00:24.831189+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:257:in `load_dependency'
+2019-09-12T14:00:24.831190+00:00 app[web.1]: from /app/vendor/bundle/ruby/2.5.0/gems/activesupport-5.2.3/lib/active_support/dependencies.rb:291:in `require'
+2019-09-12T14:00:24.831193+00:00 app[web.1]: from bin/rails:9:in `<main>'
+2019-09-12T14:00:24.833899+00:00 app[web.1]: => Booting Puma
+2019-09-12T14:00:24.833902+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-09-12T14:00:24.833904+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-09-12T14:00:24.833906+00:00 app[web.1]: Exiting
+2019-09-12T15:48:01.000000+00:00 app[api]: Build started by user pstutler@gmail.com
+2019-09-12T15:48:39.255407+00:00 heroku[web.1]: State changed from crashed to starting
+2019-09-12T15:48:38.997981+00:00 app[api]: Deploy 0681e4e4 by user pstutler@gmail.com
+2019-09-12T15:48:38.997981+00:00 app[api]: Release v22 created by user pstutler@gmail.com
+2019-09-12T15:48:43.000000+00:00 app[api]: Build succeeded
+2019-09-12T15:48:48.094464+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 25145 -e production`
+2019-09-12T15:48:53.606165+00:00 app[web.1]: [fog][DEPRECATION] Fog::Storage::AWS is deprecated, please use Fog::AWS::Storage.
+2019-09-12T15:48:53.606217+00:00 app[web.1]: [fog][WARNING] Unrecognized arguments: aws_access_key_id, aws_secret_access_key
+2019-09-12T15:48:54.494948+00:00 heroku[web.1]: State changed from starting to up
+2019-09-12T15:49:20.421861+00:00 app[web.1]: => Booting Puma
+2019-09-12T15:49:20.421906+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-09-12T15:49:20.421909+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-09-12T15:49:20.421912+00:00 app[web.1]: Puma starting in single mode...
+2019-09-12T15:49:20.421913+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-09-12T15:49:20.421917+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-09-12T15:49:20.421919+00:00 app[web.1]: * Environment: production
+2019-09-12T15:49:20.421921+00:00 app[web.1]: * Listening on tcp://0.0.0.0:25145
+2019-09-12T15:49:20.421923+00:00 app[web.1]: Use Ctrl-C to stop
+2019-09-12T15:49:20.421932+00:00 app[web.1]: I, [2019-09-12T15:49:20.421705 #4]  INFO -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43] Started GET "/" for 24.179.208.104 at 2019-09-12 15:49:20 +0000
+2019-09-12T15:49:20.423332+00:00 app[web.1]: I, [2019-09-12T15:49:20.423226 #4]  INFO -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43] Processing by WelcomeController#index as HTML
+2019-09-12T15:49:20.439913+00:00 app[web.1]: I, [2019-09-12T15:49:20.439750 #4]  INFO -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43]   Rendering welcome/index.html.erb within layouts/application
+2019-09-12T15:49:20.631825+00:00 app[web.1]: D, [2019-09-12T15:49:20.631634 #4] DEBUG -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43]   [1m[36mUser Load (6.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T15:49:20.659935+00:00 app[web.1]: I, [2019-09-12T15:49:20.659820 #4]  INFO -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43]   Rendered welcome/index.html.erb within layouts/application (219.9ms)
+2019-09-12T15:49:20.662330+00:00 app[web.1]: I, [2019-09-12T15:49:20.662250 #4]  INFO -- : [ac050e8a-922c-4b5a-8788-5f22cd752d43] Completed 200 OK in 239ms (Views: 227.1ms | ActiveRecord: 149.2ms)
+2019-09-12T15:49:20.909747+00:00 heroku[router]: at=info method=GET path="/assets/application-55f56218e90bedfed415490f9550129a7a6e98e002d8c7ac32b1d8f050af7516.css" host=pes-photo-app.herokuapp.com request_id=40918083-9e4f-4cfb-8901-7c330310c79e fwd="24.179.208.104" dyno=web.1 connect=0ms service=2ms status=200 bytes=20809 protocol=https
+2019-09-12T15:49:20.663453+00:00 heroku[router]: at=info method=GET path="/" host=pes-photo-app.herokuapp.com request_id=ac050e8a-922c-4b5a-8788-5f22cd752d43 fwd="24.179.208.104" dyno=web.1 connect=0ms service=248ms status=200 bytes=3287 protocol=https
+2019-09-12T15:49:20.922206+00:00 heroku[router]: at=info method=GET path="/assets/application-dcd6e0875765ba11308299cbb2a777bea9fcd5abfb381c91be4bc6a7260005f5.js" host=pes-photo-app.herokuapp.com request_id=1df34b5a-db14-497d-a0c3-f7699d901c3b fwd="24.179.208.104" dyno=web.1 connect=0ms service=4ms status=200 bytes=63141 protocol=https
+2019-09-12T15:49:22.110992+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=1f1a91a9-e5ca-41f8-9e96-58907c2fb7e4 fwd="24.179.208.104" dyno=web.1 connect=1ms service=1ms status=200 bytes=143 protocol=https
+2019-09-12T15:49:25.710748+00:00 app[web.1]: I, [2019-09-12T15:49:25.710631 #4]  INFO -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272] Started GET "/users/edit" for 24.179.208.104 at 2019-09-12 15:49:25 +0000
+2019-09-12T15:49:25.711768+00:00 app[web.1]: I, [2019-09-12T15:49:25.711681 #4]  INFO -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272] Processing by RegistrationsController#edit as HTML
+2019-09-12T15:49:25.716561+00:00 app[web.1]: D, [2019-09-12T15:49:25.716457 #4] DEBUG -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272]   [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T15:49:25.743464+00:00 app[web.1]: I, [2019-09-12T15:49:25.743202 #4]  INFO -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272]   Rendering devise/registrations/edit.html.erb within layouts/application
+2019-09-12T15:49:25.799108+00:00 app[web.1]: I, [2019-09-12T15:49:25.798962 #4]  INFO -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272]   Rendered devise/registrations/edit.html.erb within layouts/application (55.4ms)
+2019-09-12T15:49:25.800440+00:00 app[web.1]: I, [2019-09-12T15:49:25.800355 #4]  INFO -- : [15b1a2f8-a4a9-488d-9f9d-f169e7c27272] Completed 200 OK in 89ms (Views: 66.5ms | ActiveRecord: 1.3ms)
+2019-09-12T15:49:25.802354+00:00 heroku[router]: at=info method=GET path="/users/edit" host=pes-photo-app.herokuapp.com request_id=15b1a2f8-a4a9-488d-9f9d-f169e7c27272 fwd="24.179.208.104" dyno=web.1 connect=0ms service=93ms status=200 bytes=5183 protocol=https
+2019-09-12T15:49:41.702272+00:00 heroku[router]: at=info method=GET path="/images" host=pes-photo-app.herokuapp.com request_id=24fc38de-f150-4d94-800c-e5d30827a52c fwd="24.179.208.104" dyno=web.1 connect=0ms service=24ms status=200 bytes=3520 protocol=https
+2019-09-12T15:49:41.679095+00:00 app[web.1]: I, [2019-09-12T15:49:41.678992 #4]  INFO -- : [24fc38de-f150-4d94-800c-e5d30827a52c] Started GET "/images" for 24.179.208.104 at 2019-09-12 15:49:41 +0000
+2019-09-12T15:49:41.679838+00:00 app[web.1]: I, [2019-09-12T15:49:41.679772 #4]  INFO -- : [24fc38de-f150-4d94-800c-e5d30827a52c] Processing by ImagesController#index as HTML
+2019-09-12T15:49:41.683446+00:00 app[web.1]: D, [2019-09-12T15:49:41.683356 #4] DEBUG -- : [24fc38de-f150-4d94-800c-e5d30827a52c]   [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T15:49:41.687244+00:00 app[web.1]: I, [2019-09-12T15:49:41.687168 #4]  INFO -- : [24fc38de-f150-4d94-800c-e5d30827a52c]   Rendering images/index.html.erb within layouts/application
+2019-09-12T15:49:41.694433+00:00 app[web.1]: D, [2019-09-12T15:49:41.694327 #4] DEBUG -- : [24fc38de-f150-4d94-800c-e5d30827a52c]   [1m[36mImage Load (3.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+2019-09-12T15:49:41.698789+00:00 app[web.1]: I, [2019-09-12T15:49:41.698687 #4]  INFO -- : [24fc38de-f150-4d94-800c-e5d30827a52c]   Rendered images/index.html.erb within layouts/application (11.4ms)
+2019-09-12T15:49:41.700399+00:00 app[web.1]: I, [2019-09-12T15:49:41.700316 #4]  INFO -- : [24fc38de-f150-4d94-800c-e5d30827a52c] Completed 200 OK in 20ms (Views: 9.3ms | ActiveRecord: 6.9ms)
+2019-09-12T15:49:42.154367+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=e29920d2-2253-4a35-b0f5-126dd8af0bce fwd="24.179.208.104" dyno=web.1 connect=0ms service=1ms status=304 bytes=48 protocol=https
+2019-09-12T15:49:44.557151+00:00 app[web.1]: I, [2019-09-12T15:49:44.557015 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80] Started GET "/images/new" for 24.179.208.104 at 2019-09-12 15:49:44 +0000
+2019-09-12T15:49:44.557988+00:00 app[web.1]: I, [2019-09-12T15:49:44.557898 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80] Processing by ImagesController#new as HTML
+2019-09-12T15:49:44.562689+00:00 app[web.1]: D, [2019-09-12T15:49:44.562548 #4] DEBUG -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80]   [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T15:49:44.579618+00:00 app[web.1]: I, [2019-09-12T15:49:44.579494 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80]   Rendering images/new.html.erb within layouts/application
+2019-09-12T15:49:44.587251+00:00 app[web.1]: I, [2019-09-12T15:49:44.587164 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80]   Rendered images/_form.html.erb (4.7ms)
+2019-09-12T15:49:44.587417+00:00 app[web.1]: I, [2019-09-12T15:49:44.587341 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80]   Rendered images/new.html.erb within layouts/application (7.6ms)
+2019-09-12T15:49:44.589008+00:00 app[web.1]: I, [2019-09-12T15:49:44.588928 #4]  INFO -- : [92640d14-6b2a-4f54-bcde-1eb786a2bf80] Completed 200 OK in 31ms (Views: 9.7ms | ActiveRecord: 4.6ms)
+2019-09-12T15:49:44.590846+00:00 heroku[router]: at=info method=GET path="/images/new" host=pes-photo-app.herokuapp.com request_id=92640d14-6b2a-4f54-bcde-1eb786a2bf80 fwd="24.179.208.104" dyno=web.1 connect=1ms service=35ms status=200 bytes=4657 protocol=https
+2019-09-12T15:51:09.537191+00:00 app[web.1]: I, [2019-09-12T15:51:09.537056 #4]  INFO -- : [6c63acd2-70f9-4398-a0b6-f621edc41081] Started POST "/images" for 24.179.208.104 at 2019-09-12 15:51:09 +0000
+2019-09-12T15:51:09.538058+00:00 app[web.1]: I, [2019-09-12T15:51:09.537985 #4]  INFO -- : [6c63acd2-70f9-4398-a0b6-f621edc41081] Processing by ImagesController#create as HTML
+2019-09-12T15:51:09.538206+00:00 app[web.1]: I, [2019-09-12T15:51:09.538129 #4]  INFO -- : [6c63acd2-70f9-4398-a0b6-f621edc41081]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDKaS3XBYc/9Mt28Ok1P9oL1y7f8BoK6PtpR5Npsw8ZPq1Y+xZA/DmCnPyBj/tdCj+7eVTo2ojFIZd2lWcvoEA==", "image"=>{"name"=>"First heroku test", "picture"=>#<ActionDispatch::Http::UploadedFile:0x000055fba79d61f8 @tempfile=#<Tempfile:/tmp/RackMultipart20190912-4-1eojasl.jpg>, @original_filename="Pete Ready to Snowmobile - Game Face.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[picture]\"; filename=\"Pete Ready to Snowmobile - Game Face.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Image"}
+2019-09-12T15:51:09.543555+00:00 app[web.1]: D, [2019-09-12T15:51:09.543435 #4] DEBUG -- : [6c63acd2-70f9-4398-a0b6-f621edc41081]   [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T15:51:10.044775+00:00 app[web.1]: I, [2019-09-12T15:51:10.044613 #4]  INFO -- : [6c63acd2-70f9-4398-a0b6-f621edc41081] Completed 500 Internal Server Error in 506ms (ActiveRecord: 1.5ms)
+2019-09-12T15:51:10.050078+00:00 app[web.1]: F, [2019-09-12T15:51:10.049976 #4] FATAL -- : [6c63acd2-70f9-4398-a0b6-f621edc41081]
+2019-09-12T15:51:10.050201+00:00 app[web.1]: F, [2019-09-12T15:51:10.050117 #4] FATAL -- : [6c63acd2-70f9-4398-a0b6-f621edc41081] Excon::Error::BadRequest (Expected(200) <=> Actual(400 Bad Request)
+2019-09-12T15:51:10.050205+00:00 app[web.1]: excon.error.response
+2019-09-12T15:51:10.050215+00:00 app[web.1]: :body          => "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'us-east-2'</Message><Region>us-east-2</Region><RequestId>88B3484C33CAC398</RequestId><HostId>DG/xn3QsnBPzGKvVWSxjymuoGgwGPIXxd8Qq1NtbsVM263tscFwqjosQaXyIwg98MbwvwkWi+24=</HostId></Error>"
+2019-09-12T15:51:10.050217+00:00 app[web.1]: :cookies       => [
+2019-09-12T15:51:10.050219+00:00 app[web.1]: ]
+2019-09-12T15:51:10.050221+00:00 app[web.1]: :headers       => {
+2019-09-12T15:51:10.050223+00:00 app[web.1]: "Connection"       => "close"
+2019-09-12T15:51:10.050225+00:00 app[web.1]: "Content-Type"     => "application/xml"
+2019-09-12T15:51:10.050228+00:00 app[web.1]: "Date"             => "Thu, 12 Sep 2019 15:51:09 GMT"
+2019-09-12T15:51:10.050229+00:00 app[web.1]: "Server"           => "AmazonS3"
+2019-09-12T15:51:10.050232+00:00 app[web.1]: "x-amz-id-2"       => "DG/xn3QsnBPzGKvVWSxjymuoGgwGPIXxd8Qq1NtbsVM263tscFwqjosQaXyIwg98MbwvwkWi+24="
+2019-09-12T15:51:10.050234+00:00 app[web.1]: "x-amz-request-id" => "88B3484C33CAC398"
+2019-09-12T15:51:10.050235+00:00 app[web.1]: }
+2019-09-12T15:51:10.050237+00:00 app[web.1]: :host          => "pesphotos.s3.amazonaws.com"
+2019-09-12T15:51:10.050239+00:00 app[web.1]: :local_address => "172.16.173.106"
+2019-09-12T15:51:10.050241+00:00 app[web.1]: :local_port    => 50988
+2019-09-12T15:51:10.050243+00:00 app[web.1]: :path          => "/uploads/tmp/1568303469-563254805823229-0001-7321/Pete_Ready_to_Snowmobile_-_Game_Face.jpg"
+2019-09-12T15:51:10.050245+00:00 app[web.1]: :port          => 443
+2019-09-12T15:51:10.050247+00:00 app[web.1]: :reason_phrase => "Bad Request"
+2019-09-12T15:51:10.050249+00:00 app[web.1]: :remote_ip     => "52.219.100.228"
+2019-09-12T15:51:10.050251+00:00 app[web.1]: :status        => 400
+2019-09-12T15:51:10.050253+00:00 app[web.1]: :status_line   => "HTTP/1.1 400 Bad Request\r\n"
+2019-09-12T15:51:10.050255+00:00 app[web.1]: ):
+2019-09-12T15:51:10.050354+00:00 app[web.1]: F, [2019-09-12T15:51:10.050284 #4] FATAL -- : [6c63acd2-70f9-4398-a0b6-f621edc41081]
+2019-09-12T15:51:10.050469+00:00 app[web.1]: F, [2019-09-12T15:51:10.050397 #4] FATAL -- : [6c63acd2-70f9-4398-a0b6-f621edc41081] app/controllers/images_controller.rb:27:in `create'
+2019-09-12T15:51:10.052653+00:00 heroku[router]: at=info method=POST path="/images" host=pes-photo-app.herokuapp.com request_id=6c63acd2-70f9-4398-a0b6-f621edc41081 fwd="24.179.208.104" dyno=web.1 connect=0ms service=886ms status=500 bytes=1827 protocol=https
+2019-09-12T15:51:10.704415+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=36b18930-94ed-48a1-ad30-b7fa96112d2b fwd="24.179.208.104" dyno=web.1 connect=0ms service=4ms status=304 bytes=48 protocol=https
+2019-09-12T15:57:47.850790+00:00 app[api]: Starting process with command `$S3_ACCESS_KEY` by user pstutler@gmail.com
+2019-09-12T15:57:58.237275+00:00 heroku[run.2970]: State changed from starting to up
+2019-09-12T15:57:58.231050+00:00 heroku[run.2970]: Awaiting client
+2019-09-12T15:57:58.275849+00:00 heroku[run.2970]: Starting process with command `$S3_ACCESS_KEY`
+2019-09-12T15:58:03.061336+00:00 heroku[run.2970]: State changed from up to complete
+2019-09-12T15:58:03.039540+00:00 heroku[run.2970]: Process exited with status 127
+2019-09-12T15:58:31.657662+00:00 app[api]: Starting process with command `bash` by user pstutler@gmail.com
+2019-09-12T15:58:40.738666+00:00 heroku[run.5468]: State changed from starting to up
+2019-09-12T15:58:40.740452+00:00 heroku[run.5468]: Awaiting client
+2019-09-12T15:58:40.788952+00:00 heroku[run.5468]: Starting process with command `bash`
+2019-09-12T16:04:45.403779+00:00 heroku[web.1]: Restarting
+2019-09-12T16:04:45.652868+00:00 heroku[web.1]: State changed from up to starting
+2019-09-12T16:04:44.950165+00:00 app[api]: Release v23 created by user pstutler@gmail.com
+2019-09-12T16:04:44.950165+00:00 app[api]: Set AWS_REGION config vars by user pstutler@gmail.com
+2019-09-12T16:04:46.886932+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2019-09-12T16:04:46.902163+00:00 app[web.1]: - Gracefully stopping, waiting for requests to finish
+2019-09-12T16:04:46.919381+00:00 app[web.1]: === puma shutdown: 2019-09-12 16:04:46 +0000 ===
+2019-09-12T16:04:46.919439+00:00 app[web.1]: - Goodbye!
+2019-09-12T16:04:46.919541+00:00 app[web.1]: Exiting
+2019-09-12T16:04:47.041492+00:00 heroku[web.1]: Process exited with status 143
+2019-09-12T16:04:57.951450+00:00 heroku[web.1]: Starting process with command `bin/rails server -p 56323 -e production`
+2019-09-12T16:05:05.742320+00:00 app[web.1]: [fog][DEPRECATION] Fog::Storage::AWS is deprecated, please use Fog::AWS::Storage.
+2019-09-12T16:05:05.742346+00:00 app[web.1]: [fog][WARNING] Unrecognized arguments: aws_access_key_id, aws_secret_access_key
+2019-09-12T16:05:07.369505+00:00 heroku[web.1]: State changed from starting to up
+2019-09-12T16:05:08.402644+00:00 app[web.1]: => Booting Puma
+2019-09-12T16:05:08.402677+00:00 app[web.1]: => Rails 5.2.3 application starting in production
+2019-09-12T16:05:08.402679+00:00 app[web.1]: => Run `rails server -h` for more startup options
+2019-09-12T16:05:08.402682+00:00 app[web.1]: Puma starting in single mode...
+2019-09-12T16:05:08.402685+00:00 app[web.1]: * Version 3.12.1 (ruby 2.5.1-p57), codename: Llamas in Pajamas
+2019-09-12T16:05:08.402688+00:00 app[web.1]: * Min threads: 5, max threads: 5
+2019-09-12T16:05:08.402689+00:00 app[web.1]: * Environment: production
+2019-09-12T16:05:08.402691+00:00 app[web.1]: * Listening on tcp://0.0.0.0:56323
+2019-09-12T16:05:08.402694+00:00 app[web.1]: Use Ctrl-C to stop
+2019-09-12T16:05:08.402697+00:00 app[web.1]: I, [2019-09-12T16:05:08.402465 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373] Started GET "/images/new" for 24.179.208.104 at 2019-09-12 16:05:08 +0000
+2019-09-12T16:05:08.405392+00:00 app[web.1]: I, [2019-09-12T16:05:08.405263 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373] Processing by ImagesController#new as HTML
+2019-09-12T16:05:08.574611+00:00 app[web.1]: D, [2019-09-12T16:05:08.574409 #4] DEBUG -- : [c2c1a14c-9139-4e34-82cb-3301169b3373]   [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:05:08.764404+00:00 app[web.1]: I, [2019-09-12T16:05:08.764221 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373]   Rendering images/new.html.erb within layouts/application
+2019-09-12T16:05:08.872915+00:00 app[web.1]: I, [2019-09-12T16:05:08.872755 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373]   Rendered images/_form.html.erb (10.5ms)
+2019-09-12T16:05:08.873176+00:00 app[web.1]: I, [2019-09-12T16:05:08.873050 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373]   Rendered images/new.html.erb within layouts/application (108.6ms)
+2019-09-12T16:05:08.884175+00:00 app[web.1]: I, [2019-09-12T16:05:08.884020 #4]  INFO -- : [c2c1a14c-9139-4e34-82cb-3301169b3373] Completed 200 OK in 473ms (Views: 125.8ms | ActiveRecord: 67.5ms)
+2019-09-12T16:05:09.269209+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=30bf4082-0ccf-40b0-bd00-46c129ba2605 fwd="24.179.208.104" dyno=web.1 connect=1ms service=4ms status=200 bytes=143 protocol=https
+2019-09-12T16:05:08.891943+00:00 heroku[router]: at=info method=GET path="/images/new" host=pes-photo-app.herokuapp.com request_id=c2c1a14c-9139-4e34-82cb-3301169b3373 fwd="24.179.208.104" dyno=web.1 connect=1ms service=495ms status=200 bytes=4657 protocol=https
+2019-09-12T16:05:08.712548+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=82419fef-cc1b-4212-b197-95f66c25732f fwd="24.179.208.104" dyno=web.1 connect=1ms service=9ms status=304 bytes=48 protocol=https
+2019-09-12T16:05:40.424565+00:00 heroku[run.5468]: State changed from up to complete
+2019-09-12T16:05:40.410512+00:00 heroku[run.5468]: Process exited with status 127
+2019-09-12T16:05:47.087975+00:00 app[api]: Starting process with command `bash` by user pstutler@gmail.com
+2019-09-12T16:05:55.833793+00:00 heroku[run.6236]: State changed from starting to up
+2019-09-12T16:05:55.758139+00:00 heroku[run.6236]: Awaiting client
+2019-09-12T16:05:55.790771+00:00 heroku[run.6236]: Starting process with command `bash`
+2019-09-12T16:06:09.639406+00:00 heroku[run.6236]: Client connection closed. Sending SIGHUP to all processes
+2019-09-12T16:06:10.184685+00:00 heroku[run.6236]: State changed from up to complete
+2019-09-12T16:06:10.168579+00:00 heroku[run.6236]: Process exited with status 0
+2019-09-12T16:06:14.278452+00:00 heroku[router]: at=info method=GET path="/images" host=pes-photo-app.herokuapp.com request_id=27c8ee51-594a-41bb-b980-4fb03cb9fce8 fwd="24.179.208.104" dyno=web.1 connect=1ms service=22ms status=200 bytes=3522 protocol=https
+2019-09-12T16:06:14.260052+00:00 app[web.1]: I, [2019-09-12T16:06:14.259899 #4]  INFO -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8] Started GET "/images" for 24.179.208.104 at 2019-09-12 16:06:14 +0000
+2019-09-12T16:06:14.260937+00:00 app[web.1]: I, [2019-09-12T16:06:14.260844 #4]  INFO -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8] Processing by ImagesController#index as HTML
+2019-09-12T16:06:14.265968+00:00 app[web.1]: D, [2019-09-12T16:06:14.265870 #4] DEBUG -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8]   [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:06:14.268157+00:00 app[web.1]: I, [2019-09-12T16:06:14.268055 #4]  INFO -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8]   Rendering images/index.html.erb within layouts/application
+2019-09-12T16:06:14.275021+00:00 app[web.1]: D, [2019-09-12T16:06:14.274897 #4] DEBUG -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8]   [1m[36mImage Load (1.9ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+2019-09-12T16:06:14.275712+00:00 app[web.1]: I, [2019-09-12T16:06:14.275612 #4]  INFO -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8]   Rendered images/index.html.erb within layouts/application (7.4ms)
+2019-09-12T16:06:14.277749+00:00 app[web.1]: I, [2019-09-12T16:06:14.277623 #4]  INFO -- : [27c8ee51-594a-41bb-b980-4fb03cb9fce8] Completed 200 OK in 17ms (Views: 7.8ms | ActiveRecord: 3.6ms)
+2019-09-12T16:07:04.315509+00:00 app[web.1]: I, [2019-09-12T16:07:04.315379 #4]  INFO -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f] Started GET "/" for 24.179.208.104 at 2019-09-12 16:07:04 +0000
+2019-09-12T16:07:04.338797+00:00 app[web.1]: I, [2019-09-12T16:07:04.338625 #4]  INFO -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f] Processing by WelcomeController#index as HTML
+2019-09-12T16:07:04.364959+00:00 app[web.1]: I, [2019-09-12T16:07:04.364796 #4]  INFO -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f]   Rendering welcome/index.html.erb within layouts/application
+2019-09-12T16:07:04.438574+00:00 app[web.1]: D, [2019-09-12T16:07:04.438398 #4] DEBUG -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f]   [1m[36mUser Load (10.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:07:04.455155+00:00 app[web.1]: I, [2019-09-12T16:07:04.454997 #4]  INFO -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f]   Rendered welcome/index.html.erb within layouts/application (56.0ms)
+2019-09-12T16:07:04.475468+00:00 app[web.1]: I, [2019-09-12T16:07:04.475321 #4]  INFO -- : [ac7af1a9-9505-47db-b68e-bb93ec0ebd4f] Completed 200 OK in 133ms (Views: 102.7ms | ActiveRecord: 10.6ms)
+2019-09-12T16:07:04.494998+00:00 heroku[router]: at=info method=GET path="/" host=pes-photo-app.herokuapp.com request_id=ac7af1a9-9505-47db-b68e-bb93ec0ebd4f fwd="24.179.208.104" dyno=web.1 connect=1ms service=185ms status=200 bytes=3291 protocol=https
+2019-09-12T16:07:05.977935+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=pes-photo-app.herokuapp.com request_id=7b41f080-21fd-4b16-957a-a85c15d599d9 fwd="24.179.208.104" dyno=web.1 connect=1ms service=4ms status=304 bytes=48 protocol=https
+2019-09-12T16:07:14.649987+00:00 heroku[router]: at=info method=GET path="/images" host=pes-photo-app.herokuapp.com request_id=417f19b4-ec5a-435a-b6be-108038bf9a9e fwd="24.179.208.104" dyno=web.1 connect=1ms service=25ms status=200 bytes=3524 protocol=https
+2019-09-12T16:07:14.629552+00:00 app[web.1]: I, [2019-09-12T16:07:14.629388 #4]  INFO -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e] Started GET "/images" for 24.179.208.104 at 2019-09-12 16:07:14 +0000
+2019-09-12T16:07:14.634005+00:00 app[web.1]: I, [2019-09-12T16:07:14.633772 #4]  INFO -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e] Processing by ImagesController#index as HTML
+2019-09-12T16:07:14.640701+00:00 app[web.1]: D, [2019-09-12T16:07:14.640543 #4] DEBUG -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e]   [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:07:14.642885+00:00 app[web.1]: I, [2019-09-12T16:07:14.642605 #4]  INFO -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e]   Rendering images/index.html.erb within layouts/application
+2019-09-12T16:07:14.647247+00:00 app[web.1]: D, [2019-09-12T16:07:14.647119 #4] DEBUG -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e]   [1m[36mImage Load (2.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+2019-09-12T16:07:14.647963+00:00 app[web.1]: I, [2019-09-12T16:07:14.647870 #4]  INFO -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e]   Rendered images/index.html.erb within layouts/application (4.9ms)
+2019-09-12T16:07:14.649264+00:00 app[web.1]: I, [2019-09-12T16:07:14.649159 #4]  INFO -- : [417f19b4-ec5a-435a-b6be-108038bf9a9e] Completed 200 OK in 15ms (Views: 5.1ms | ActiveRecord: 3.9ms)
+2019-09-12T16:07:17.283778+00:00 app[web.1]: I, [2019-09-12T16:07:17.283622 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1] Started GET "/images/new" for 24.179.208.104 at 2019-09-12 16:07:17 +0000
+2019-09-12T16:07:17.285793+00:00 app[web.1]: I, [2019-09-12T16:07:17.285699 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1] Processing by ImagesController#new as HTML
+2019-09-12T16:07:17.292052+00:00 app[web.1]: D, [2019-09-12T16:07:17.291860 #4] DEBUG -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1]   [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:07:17.294385+00:00 app[web.1]: I, [2019-09-12T16:07:17.294276 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1]   Rendering images/new.html.erb within layouts/application
+2019-09-12T16:07:17.299269+00:00 app[web.1]: I, [2019-09-12T16:07:17.299139 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1]   Rendered images/_form.html.erb (3.6ms)
+2019-09-12T16:07:17.299521+00:00 app[web.1]: I, [2019-09-12T16:07:17.299425 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1]   Rendered images/new.html.erb within layouts/application (4.9ms)
+2019-09-12T16:07:17.301430+00:00 app[web.1]: I, [2019-09-12T16:07:17.301334 #4]  INFO -- : [1108eaec-91eb-4332-bcd3-aa69f654d0e1] Completed 200 OK in 15ms (Views: 7.5ms | ActiveRecord: 1.9ms)
+2019-09-12T16:07:17.301896+00:00 heroku[router]: at=info method=GET path="/images/new" host=pes-photo-app.herokuapp.com request_id=1108eaec-91eb-4332-bcd3-aa69f654d0e1 fwd="24.179.208.104" dyno=web.1 connect=1ms service=28ms status=200 bytes=4661 protocol=https
+2019-09-12T16:07:44.657640+00:00 app[web.1]: I, [2019-09-12T16:07:44.657490 #4]  INFO -- : [829c1369-491c-45be-805e-2533bf92f36d] Started POST "/images" for 24.179.208.104 at 2019-09-12 16:07:44 +0000
+2019-09-12T16:07:44.664774+00:00 app[web.1]: I, [2019-09-12T16:07:44.664612 #4]  INFO -- : [829c1369-491c-45be-805e-2533bf92f36d] Processing by ImagesController#create as HTML
+2019-09-12T16:07:44.665157+00:00 app[web.1]: I, [2019-09-12T16:07:44.665033 #4]  INFO -- : [829c1369-491c-45be-805e-2533bf92f36d]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"q5e40aTNn891nj10nOK2yms5lVnCcWtfE7ooXYZm28xsDnSkFJzBDugL3+jFUS5+ZiKAuwRBS9RlBaQcBcHwGg==", "image"=>{"name"=>"Second image test on heroku", "picture"=>#<ActionDispatch::Http::UploadedFile:0x000055b1226eb6e8 @tempfile=#<Tempfile:/tmp/RackMultipart20190912-4-1nd2prq.jpg>, @original_filename="Pete Ready to Snowmobile - Game Face.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"image[picture]\"; filename=\"Pete Ready to Snowmobile - Game Face.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Image"}
+2019-09-12T16:07:44.674142+00:00 app[web.1]: D, [2019-09-12T16:07:44.673975 #4] DEBUG -- : [829c1369-491c-45be-805e-2533bf92f36d]   [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+2019-09-12T16:07:45.299594+00:00 app[web.1]: I, [2019-09-12T16:07:45.294170 #4]  INFO -- : [829c1369-491c-45be-805e-2533bf92f36d] Completed 500 Internal Server Error in 629ms (ActiveRecord: 1.9ms)
+2019-09-12T16:07:45.301167+00:00 app[web.1]: F, [2019-09-12T16:07:45.301003 #4] FATAL -- : [829c1369-491c-45be-805e-2533bf92f36d]
+2019-09-12T16:07:45.301248+00:00 app[web.1]: F, [2019-09-12T16:07:45.301136 #4] FATAL -- : [829c1369-491c-45be-805e-2533bf92f36d] Excon::Error::BadRequest (Expected(200) <=> Actual(400 Bad Request)
+2019-09-12T16:07:45.301252+00:00 app[web.1]: excon.error.response
+2019-09-12T16:07:45.301264+00:00 app[web.1]: :body          => "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AuthorizationHeaderMalformed</Code><Message>The authorization header is malformed; the region 'us-east-1' is wrong; expecting 'us-east-2'</Message><Region>us-east-2</Region><RequestId>D31E65A7BAD5C6DF</RequestId><HostId>wXslRgz3qUFpLqoDhXtVoeV6PyRH4tVbvUogmPM3VzFom6d7NCVHZaJ6zhlcQNpVI/xdgGQGfJU=</HostId></Error>"
+2019-09-12T16:07:45.301267+00:00 app[web.1]: :cookies       => [
+2019-09-12T16:07:45.301270+00:00 app[web.1]: ]
+2019-09-12T16:07:45.301272+00:00 app[web.1]: :headers       => {
+2019-09-12T16:07:45.301274+00:00 app[web.1]: "Connection"       => "close"
+2019-09-12T16:07:45.301277+00:00 app[web.1]: "Content-Type"     => "application/xml"
+2019-09-12T16:07:45.301279+00:00 app[web.1]: "Date"             => "Thu, 12 Sep 2019 16:07:44 GMT"
+2019-09-12T16:07:45.301281+00:00 app[web.1]: "Server"           => "AmazonS3"
+2019-09-12T16:07:45.301284+00:00 app[web.1]: "x-amz-id-2"       => "wXslRgz3qUFpLqoDhXtVoeV6PyRH4tVbvUogmPM3VzFom6d7NCVHZaJ6zhlcQNpVI/xdgGQGfJU="
+2019-09-12T16:07:45.301286+00:00 app[web.1]: "x-amz-request-id" => "D31E65A7BAD5C6DF"
+2019-09-12T16:07:45.301288+00:00 app[web.1]: }
+2019-09-12T16:07:45.301290+00:00 app[web.1]: :host          => "pesphotos.s3.amazonaws.com"
+2019-09-12T16:07:45.301292+00:00 app[web.1]: :local_address => "172.17.225.106"
+2019-09-12T16:07:45.301294+00:00 app[web.1]: :local_port    => 53034
+2019-09-12T16:07:45.301297+00:00 app[web.1]: :path          => "/uploads/tmp/1568304464-28482882862857-0001-9297/Pete_Ready_to_Snowmobile_-_Game_Face.jpg"
+2019-09-12T16:07:45.301299+00:00 app[web.1]: :port          => 443
+2019-09-12T16:07:45.301301+00:00 app[web.1]: :reason_phrase => "Bad Request"
+2019-09-12T16:07:45.301303+00:00 app[web.1]: :remote_ip     => "52.219.88.42"
+2019-09-12T16:07:45.301305+00:00 app[web.1]: :status        => 400
+2019-09-12T16:07:45.301307+00:00 app[web.1]: :status_line   => "HTTP/1.1 400 Bad Request\r\n"
+2019-09-12T16:07:45.301309+00:00 app[web.1]: ):
+2019-09-12T16:07:45.301358+00:00 app[web.1]: F, [2019-09-12T16:07:45.301255 #4] FATAL -- : [829c1369-491c-45be-805e-2533bf92f36d]
+2019-09-12T16:07:45.301480+00:00 app[web.1]: F, [2019-09-12T16:07:45.301384 #4] FATAL -- : [829c1369-491c-45be-805e-2533bf92f36d] app/controllers/images_controller.rb:27:in `create'
+2019-09-12T16:07:45.301163+00:00 heroku[router]: at=info method=POST path="/images" host=pes-photo-app.herokuapp.com request_id=829c1369-491c-45be-805e-2533bf92f36d fwd="24.179.208.104" dyno=web.1 connect=1ms service=997ms status=500 bytes=1827 protocol=https
