@@ -5,7 +5,7 @@ class RegistrationsController < Devise::RegistrationsController
 
     resource.class.transaction do
       resource.save
-      yeild resource if block_given?
+      yield resource if block_given?
       if resource.persisted?
         @payment =Payment.new({email: params["user"]["email"],
           token: params[:payment]["token"], user_id: resource.id })
@@ -42,7 +42,7 @@ class RegistrationsController < Devise::RegistrationsController
 
   protected
 
-  def configure_mermitted_parameters
+  def configure_permitted_parameters
     devise_parameter_sanitizer.for( :sign_up ).push(:payment)
   end
 

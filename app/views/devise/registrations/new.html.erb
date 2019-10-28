@@ -22,11 +22,17 @@
     <% end %>
   </div>
 
+PRICE
+<%= params[:price] %>
+
+SUBSCRIPTION
+<%= params[:subscription] %>
+
   <div class="form-group">
     <%= f.label :password_confirmation %>
     <%= f.password_field :password_confirmation, autocomplete: 'current-password', class: 'form-control' %>
   </div>
-
+<% if params[:price] != "FREE" %>
   <%= fields_for ( :payment) do |p| %>
     <div class="row col-md-12">
       <div class="form-group col-md-4 no-left-padding">
@@ -56,6 +62,7 @@
       </div>
     </div>
   <% end %>
+<% end %>
 
   <div class="form-group">
     <%= f.submit t('.sign_up'), class: 'btn btn-primary' %>

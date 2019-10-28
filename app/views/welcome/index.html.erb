@@ -11,10 +11,11 @@
   <div class="row">
     <div class="plans clearfix">
       <div class="col-lg-3 col-lg-offset-3 plan">
-        <h2>Premium Plan</h2>
+        <h2>Free Plan</h2>
         <div class="price pull-right">
           Price: $10
         </div>
+        <% @price = "FREE" %>
         <div class="features">
           <ul>
             <li>Unlimited Image Uploads</li>
@@ -23,7 +24,7 @@
           </ul>
         </div>
         <p>
-          <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
+          <%= link_to 'Sign Up', new_user_registration_path(price: @price, subscription: "Free Plan"), class: 'btn btn-primary sign-up' %>
         </p>
       </div>
       <div class="col-lg-3 plan">
@@ -39,8 +40,10 @@
             <li class='extra'>Unlimited projects</li>
           </ul>
         </div>
+
+        <% @price = 20 %>
         <p>
-          <%= link_to 'Sign Up', new_user_registration_path, class: 'btn btn-primary sign-up' %>
+          <%= link_to 'Sign Up', new_user_registration_path(price: @price, subscription: "Fee Plan"), class: 'btn btn-primary sign-up' %>
         </p>
       </div>
     </div>
